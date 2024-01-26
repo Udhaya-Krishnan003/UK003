@@ -3,7 +3,7 @@ export default function Basic(){
     const [inputValue,SetInputValue]=useState(" ");
     const [displayMessage,setDisplayMessage]=useState('');
     const handleChange=(even) =>{
-        SetInputValue(event.target.value);
+        SetInputValue(even.target.value);
     };
     const handleSubmit=(even) =>{
         even.preventDefault();
